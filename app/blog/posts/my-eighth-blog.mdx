@@ -10,6 +10,35 @@ Today, I am going to upload a file that I created before.
 Its about the Binary Search Tree. In it we can add functions like we can search specific words and multiple words that we have in text.
 Not only search words it can also search numbers. And we can also add time to find how many time it has taken to find words or number given by us.
 
+How Binary Search Trees Function?
+
+Basic Structure:
+In a BST, each node has a value, and two child nodes: a left child and a right child.
+Nodes in the left subtree contain values less than the node’s value.
+Nodes in the right subtree contain values greater than the node’s value.
+
+Operations in a BST:
+Search: Start at the root and compare the target value with the node's value. Move to the left if the target is less, or to the right if it’s greater, until the value is found or you reach a leaf node (meaning the value is not in the tree).
+Insertion: Similar to search, find the correct position by comparing values, then add the new value as a leaf node.
+Deletion: More complex than insertion, deletion involves three cases:
+Removing a leaf node (no children): Simply delete the node.
+Removing a node with one child: Replace the node with its child.
+Removing a node with two children: Find the node's in-order successor (the smallest node in its right subtree), replace the node with this successor, and adjust the subtree as necessary.
+
+Time Complexity:
+In a balanced BST, search, insertion, and deletion have a time complexity of 𝑂 (log⁡𝑛) O(logn).
+However, if the BST becomes unbalanced (like a linked list), the time complexity can degrade to 𝑂(𝑛) O(n).
+
+Where Binary Search Tree Are Used?
+
+1) Database and File Systems
+2) Searching Sorting Algorithms
+3) Data Compression
+4) Implementing Sets and Maps
+5) Autocomplete and Spell Checkers
+6) Network Routing Algorithms
+
+
 https://github.com/YETI1064/tashi-binary-tree
 
 That's all for now!!!
